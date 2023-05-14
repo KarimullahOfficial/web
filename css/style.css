@@ -14,7 +14,7 @@ body {
   background-color: white;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: brown;
+  background-color: rgb(43, 3, 3);
 }
 *,
 *:before,
@@ -44,8 +44,8 @@ ol {
   font-size: 30px;
 }
 li:hover {
-  border-bottom: 4px solid brown;
-  color: brown;
+  border-bottom: 4px solid rgb(31, 3, 3);
+  color: rgb(65, 3, 3);
 }
 h1 {
   font-size: 3rem;
@@ -177,7 +177,7 @@ p {
 }
 .top-banner {
   width: 100%;
-  background-image: url("../image/bg/bg-1.jpg");
+  background: url("../image/bg/bg-1.jpg") no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 9.375rem;
 }
@@ -233,4 +233,25 @@ p {
 }
 .story-sec h2 {
   color: rgb(58, 2, 2);
+}
+.explore-food .card {
+  border: none;
+  background-color: transparent;
+  border-radius: 0.9375rem;
+}
+.explore-food .card img {
+  border-radius: 0.9375rem;
+  object-fit: cover;
+}
+.explore-food .card span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(48, 6, 6);
+  border-bottom: 0.0625rem;
+  padding-bottom: 1rem;
+}
+.explore-food .card del {
+  color: gray;
+  margin-left: 0.5rem;
 }
