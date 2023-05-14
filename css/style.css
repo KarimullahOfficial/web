@@ -292,3 +292,11 @@ p {
   opacity: 1rem;
   color: white;
 }
+.Query-section {
+  background-color: aqua;
+}
+.fqa h4 span {
+  color: maroon;
+  font-size: 1.875rem;
+  margin-right: 0.3125rem;
+}
