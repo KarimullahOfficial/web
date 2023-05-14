@@ -189,3 +189,37 @@ p {
   color: white;
   text-transform: uppercase;
 }
+.about-section {
+  background-color: white;
+}
+.about-section .card,
+.about-section img {
+  border-radius: 0.625rem;
+}
+.about-section .text-sec {
+  padding-left: 2rem;
+}
+.food-type {
+  padding: 3.25rem;
+}
+.food-type ul li {
+  font-size: 1rem;
+}
+
+.food-type ul li:hover {
+  color: none;
+  border-bottom-color: none;
+  margin-left: 30px;
+  line-height: 32px;
+  position: relative;
+}
+.food-type ul li::before {
+  color: rgb(100, 5, 5);
+  font-size: 1.25rem;
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
