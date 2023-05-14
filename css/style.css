@@ -255,3 +255,40 @@ p {
   color: gray;
   margin-left: 0.5rem;
 }
+.testimonial-section {
+  background-color: rgb(250, 14, 14);
+}
+.testimonial-section .carousel-item {
+  margin-top: 3rem;
+  padding: 10rem 3.125rem;
+  background-color: white;
+  border-radius: 0.75rem;
+
+  text-align: center;
+}
+.testimonial-section .carousel-item .carousel-caption img {
+  max-width: 5rem;
+  border-radius: 50%;
+  padding: 0.315rem;
+}
+.testimonial-section .carousel-item .carousel-caption p {
+  font-size: 1.3125rem;
+  padding: 0 11% 0.625rem;
+  line-height: 2.0635rem;
+}
+.testimonial-section .carousel-indicators {
+  bottom: -2.8125rem;
+}
+.testimonial-section .carousel-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 1rem;
+  opacity: 0.2;
+  color: white;
+}
+.testimonial-section .carousel-indicators button :active {
+  opacity: 1rem;
+  color: white;
+}
