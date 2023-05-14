@@ -27,4 +27,8 @@
   .top-banner {
     padding: 10.375rem 0 9.375rem;
   }
+  .story-sec {
+    height: auto;
+    padding: 3rem 0;
+  }
 }
