@@ -308,3 +308,42 @@ p {
   background-position: 0 71.9125px;
   padding: 4.375em;
 }
+.newslettler {
+  width: 55%;
+  margin: 0 auto;
+}
+.newslettler .form-control {
+  height: 3.125rem;
+  padding: 0 1.235rem;
+  font-size: 0.875;
+  font-weight: 400;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border: 0.1875rem solid gray;
+  color: black;
+  font-weight: 700;
+}
+.newslettler .form-control :hover,
+.newslettler .form-control :focus {
+  outline: none;
+  box-shadow: none;
+  border-color: rgb(53, 2, 2);
+}
+.footer {
+  background-color: rgb(71, 4, 4);
+}
+.footer .footer-link {
+  font-size: 1rem;
+  color: white;
+  padding: 0 1.785rem;
+}
+.footer .footer-link a:hover {
+  color: white !important;
+}
+.footer a i {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 1rem;
+}

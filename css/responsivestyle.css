@@ -37,4 +37,15 @@
   .testimonial-section .carousel-item {
     padding: 15rem 3.125rem;
   }
+  .newslettler {
+    width: 75%;
+  }
+  .newslettler .main-btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
 }
